@@ -1,6 +1,6 @@
 from azure.storage.blob import BlobServiceClient,BlobClient,ContainerClient
 
-connection_string = ""
+connection_string = "https://github.com/naushadnandoliya/play-around-azure-storage-acc/security/secret-scanning/unblock-secret/2silkL5HgNxg9dvP9A0l09ZHk9Z"
 
 blob_service_client = BlobServiceClient.from_connection_string(connection_string)
 
