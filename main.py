@@ -1,6 +1,6 @@
 from azure.storage.blob import BlobServiceClient,BlobClient,ContainerClient
 
-connection_string = "DefaultEndpointsProtocol=https;AccountName=storageaccnaushad;AccountKey=Md7KlqDaMMA+Gz+llllfkjMDruTPtpuLfTyGGBdMOzk7oRaEorWbA9Tmcmie2qoj4T/+g98YskBg+AStWn9WKg==;EndpointSuffix=core.windows.net"
+connection_string = ""
 
 blob_service_client = BlobServiceClient.from_connection_string(connection_string)
 
